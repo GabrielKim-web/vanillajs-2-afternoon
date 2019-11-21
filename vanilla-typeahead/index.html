@@ -84,6 +84,13 @@
 </body>
 
 <script>
+    const characters = [];
+    //we are fetching an array from the site?
+    const response = fetch("https://swapi.co/api/people")
+    //if the response is true, push them to characters!
+    console.dir(response);
+    characters.push(response);
+    console.log(characters);
 </script>
 
 </html>
